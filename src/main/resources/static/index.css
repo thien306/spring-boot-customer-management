@@ -1,0 +1,231 @@
+/* Global styles */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Specific styles for each page */
+
+/* Create customer page */
+
+.create-customer-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.create-customer-form h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.create-customer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-customer-form input[type="text"],
+.create-customer-form input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.create-customer-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-customer-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Delete customer page */
+
+.delete-customer-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.delete-customer-form h1 {
+    text-align: center;
+    color: #dc3545;
+}
+
+.delete-customer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-customer-form input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-customer-form input[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+/* Customers list page */
+
+.customers-list {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customers-list h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.customers-list a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.customers-list a:hover {
+    background-color: #0056b3;
+}
+
+/* Update customer page */
+
+.update-customer-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.update-customer-form h1 {
+    text-align: center;
+    color: #ffc107;
+}
+
+.update-customer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-customer-form input[type="text"],
+.update-customer-form input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.update-customer-form input[type="submit"] {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-customer-form input[type="submit"]:hover {
+    background-color: #e0a800;
+}
+
+/* 404 page */
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.container a:hover {
+    background-color: #0056b3;
+}
